@@ -1,16 +1,27 @@
 ﻿@page  
 @* Creates the a Razor page. The @page must be place at the top of the 
 code to indicate it can handle Html request.*@
+
 @using RazorPagesPizza.Models
-@model RazorPagesPizza.Pages.PizzaModel
+@*Refereces the models in the page. Any member defined in the 'RazorPagesPizza.Models'
+can be reference in the page without the need of fully specefy the their namespace.
+Insted of '@model RazorPagesPizza.Pages.PizzaModel' we can simply type 
+'@model PizzaModel'*@
+
+@model PizzaModel
 @* The model is defined as @mode and represent the 'PizzaModel' class. 
-The location is  'RazorPagesPizza.Pages' *@
+The location is  'RazorPagesPizza.Pages'. It gives you access to the class PizzaModel and 
+it allows you to manipulate the data inside. *@
 
+@*@ symbol to transition from HTML to C#. If the @ symbol is followed by a Razor 
+reserved keyword, it transitions into Razor-specific markup; otherwise, it transitions to C#.*@
 @{
-    ViewData["Title"] = "Pizza List";
+   ViewData["Title"] = "Pizza List 🍕";
 }
+@* Any component that have acess to the 'ViewData["Title"]' dictionary can retrive the value and 
+used. see code below.*@
 
-<h1>Pizza List 🍕</h1>
+<h1>@ViewData["Title"] </h1> <!--the value in the @ViewData is retrived and used. -->
 <form method="post" class="card p-3">
     <div class="row">
         <div asp-validation-summary="All"></div>
