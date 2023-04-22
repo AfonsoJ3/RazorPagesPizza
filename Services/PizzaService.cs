@@ -6,7 +6,7 @@ namespace RazorPagesPizza.Services
     {
         // initialize a list of pizzas and a counter for the next ID
         static List<Pizza> Pizzas { get; }
-        static int nextId = 3;
+        static int nextId = 4;
 
         // initialize the list of pizzas with some initial values
         static PizzaService()
@@ -14,7 +14,8 @@ namespace RazorPagesPizza.Services
             Pizzas = new List<Pizza>
             {
                 new Pizza { Id = 1, Name = "Classic Italian", Price = 20.00M, Size = PizzaSize.Large, IsGlutenFree = false },
-                new Pizza { Id = 2, Name = "Veggie", Price = 15.00M, Size = PizzaSize.Small, IsGlutenFree = true }
+                new Pizza { Id = 2, Name = "Veggie", Price = 15.00M, Size = PizzaSize.Small, IsGlutenFree = true },
+                new Pizza { Id = 3, Name = "Cheese Pizza", Price = 10.00M, Size = PizzaSize.Large, IsGlutenFree = true }
             };
         }
 
