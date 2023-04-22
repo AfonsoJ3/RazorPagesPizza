@@ -47,7 +47,7 @@ used. see code below.*@
         </div>
 
     </form>
-        <table class="table mt-5">
+        <table class="table mt-3">
         <thead>
             <tr>
                 <th scope="col">Id</th>
@@ -61,7 +61,7 @@ used. see code below.*@
         @foreach (var pizza in Model.pizzas)
         {
             <tr>
-                <th>@pizza.Id</th>
+                <td>@pizza.Id</td>
                 <td>@pizza.Name</td>
                 <td>@($"{pizza.Price:C}")</td>
                 <td>@pizza.Size</td>
