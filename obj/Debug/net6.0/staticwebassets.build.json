@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3zGOXBHnTDNX0mrbK6TjXDMDfNglkzwi/k8iL6g5Yxg=",
+  "Hash": "gx/OZeGkQFMZKfUB8TWVcHObhS6zPO+emZoYMyeFYHE=",
   "Source": "RazorPagesPizza",
   "BasePath": "_content/RazorPagesPizza",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Jorge Afonso\\Documents\\RazorPagesPizza\\wwwroot\\css\\stylePizza.css",
+      "SourceId": "RazorPagesPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jorge Afonso\\Documents\\RazorPagesPizza\\wwwroot\\",
+      "BasePath": "_content/RazorPagesPizza",
+      "RelativePath": "css/stylePizza.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\stylePizza.css"
     },
     {
       "Identity": "C:\\Users\\Jorge Afonso\\Documents\\RazorPagesPizza\\wwwroot\\favicon.ico",

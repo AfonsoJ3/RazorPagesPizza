@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Jorge Afonso\\Documents\\RazorPagesPizza\\wwwroot\\css\\stylePizza.css",
+      "PackagePath": "staticwebassets\\css\\stylePizza.css"
+    },
+    {
       "Id": "C:\\Users\\Jorge Afonso\\Documents\\RazorPagesPizza\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
