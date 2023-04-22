@@ -3,8 +3,32 @@ h1{
     font-size: 50px;
 }
 
-body
-{
+label{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+
+input{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px;
+}
+
+select{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+}
+
+button{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+th{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+}
+
+td{
     font-family: 'Brush Script MT', cursive;
     font-size: 30px;
 }
