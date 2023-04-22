@@ -41,6 +41,7 @@ used. see code below.*@
 <table class="table mt-5">
     <thead>
         <tr>
+            <th scope="col">Id</th>
             <th scope="col">Name</th>
             <th scope="col">Price</th>
             <th scope="col">Size</th>
@@ -51,6 +52,7 @@ used. see code below.*@
     @foreach (var pizza in Model.pizzas)
     {
         <tr>
+            <th>@pizza.Id</th>
             <td>@pizza.Name</td>
             <td>@($"{pizza.Price:C}")</td>
             <td>@pizza.Size</td>
