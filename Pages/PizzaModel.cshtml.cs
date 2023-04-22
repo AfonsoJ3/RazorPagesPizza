@@ -28,7 +28,7 @@ namespace RazorPagesPizza.Pages
             {
                 return "Gluten Free";
             }
-
+            
             return "Not Gluten Free";
         }
 
