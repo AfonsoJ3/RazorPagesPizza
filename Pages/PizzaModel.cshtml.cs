@@ -24,7 +24,12 @@ namespace RazorPagesPizza.Pages
         // Method to return text indicating if pizza is gluten free
         public string GlutenFreeText(Pizza pizza)
         {
-            return pizza.IsGlutenFree ? "Gluten Free" : "Not Gluten Free";
+            if(pizza.IsGlutenFree)
+            {
+                return "Gluten Free";
+            }
+
+            return "Not Gluten Free";
         }
 
         // Method to run when form is submitted to add new pizza
