@@ -1,7 +1,11 @@
-﻿
-@page
+﻿@page  
+@* Creates the a Razor page. The @page must be place at the top of the 
+code to indicate it can handle Html request.*@
 @using RazorPagesPizza.Models
 @model RazorPagesPizza.Pages.PizzaModel
+@* The model is defined as @mode and represent the 'PizzaModel' class. 
+The location is  'RazorPagesPizza.Pages' *@
+
 @{
     ViewData["Title"] = "Pizza List";
 }
